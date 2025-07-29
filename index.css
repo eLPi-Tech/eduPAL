@@ -28,7 +28,7 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1450px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -182,7 +182,7 @@ a:hover {
 }
 
 .partner-img img{
-    max-width: 300px;
+    max-width: 200px;
 
     max-height: 70px;
 }
@@ -514,7 +514,7 @@ a:hover {
 
 /* ====================================================================
 ================ SMALL SCREENS ============================================ */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .main-nav {
         display: none;
         flex-direction: column;
