@@ -1,0 +1,40 @@
+{
+  "hosting": {
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/",
+        "destination": "/.html"
+      },
+      {
+        "source": "./about.html",
+        "destination": "./about.html.html"
+      },
+      {
+        "source": "./all_courses.html",
+        "destination": "./all_courses.html.html"
+      },
+      {
+        "source": "/categories",
+        "destination": "/categories.html"
+      },
+      {
+        "source": "./contact.html",
+        "destination": "./contact.html.html"
+      },
+      {
+        "source": "/404",
+        "destination": "/404.html"
+      },
+      {
+        "source": "./trending_courses.htmls",
+        "destination": "./trending_courses.html.html"
+      }
+    ]
+  }
+}
